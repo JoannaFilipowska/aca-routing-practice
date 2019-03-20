@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "./components/About.js";
+import "./components/Home.js";
+import "./components/Header.js";
+import "./components/Footer.js";
+import "./components/Nav.js";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
